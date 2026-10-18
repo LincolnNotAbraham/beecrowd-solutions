@@ -1,3 +1,13 @@
+/*
+ * Beecrowd 1310 - Lucro
+ * https://judge.beecrowd.com/pt/problems/view/1310
+ *
+ * Calcula o lucro maximo em um periodo de dias, em que cada dia gera uma
+ * receita e um custo fixo.
+ *
+ * Abordagem: subtrai o custo de cada receita e aplica o algoritmo de Kadane
+ * para encontrar a soma maxima de um subarray contiguo (lucro nao negativo).
+ */
 #include <bits/stdc++.h>
  
 using namespace std;

@@ -1,3 +1,14 @@
+/*
+ * Beecrowd 1524 - Cafeteria
+ * https://judge.beecrowd.com/pt/problems/view/1524
+ *
+ * Divide as posicoes de uma sequencia em K grupos contiguos, minimizando
+ * a soma dos intervalos internos de cada grupo.
+ *
+ * Abordagem: calcula os intervalos entre posicoes consecutivas, descarta
+ * os K-1 maiores (ordenacao decrescente) e soma os intervalos restantes
+ * com uma estrategia gulosa.
+ */
 #include <bits/stdc++.h>
  
 using namespace std;

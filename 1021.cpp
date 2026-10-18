@@ -1,3 +1,14 @@
+/*
+ * Beecrowd 1021 - Notas e Moedas
+ * https://judge.beecrowd.com/pt/problems/view/1021
+ *
+ * Le um valor monetario e informa a menor quantidade de notas e moedas
+ * necessaria para representa-lo.
+ *
+ * Abordagem: converte o valor para centavos (com arredondamento, evitando
+ * imprecisao de ponto flutuante) e aplica divisao gulosa sobre as
+ * denominacoes, da maior para a menor.
+ */
 #include <bits/stdc++.h>
  
 using namespace std;

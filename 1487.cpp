@@ -1,3 +1,13 @@
+/*
+ * Beecrowd 1487 - Six Flags
+ * https://judge.beecrowd.com/pt/problems/view/1487
+ *
+ * Escolhe brinquedos para maximizar a diversao dentro do tempo disponivel,
+ * podendo repetir o mesmo brinquedo varias vezes.
+ *
+ * Abordagem: mochila ilimitada (unbounded knapsack) com programacao
+ * dinamica bottom-up; le instancias ate n = 0.
+ */
 #include <bits/stdc++.h>
  
 using namespace std;
